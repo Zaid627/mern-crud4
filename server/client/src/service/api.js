@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // const usersUrl = 'http://localhost:3003/users';
-const usersUrl = 'http://localhost:8080';
+const usersUrl = 'https://mern-crud4-backend-complete.vercel.app';
 
 export const getUsers = async (id) => {
     id = id || '';
